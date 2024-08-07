@@ -1,5 +1,6 @@
-import { Produto } from './components/Home'
+
+import { Rodape } from './components/rodape'
 
 export default function App() {
-  return <Produto />
+  return <Rodape />
 }
