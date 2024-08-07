@@ -21,7 +21,6 @@ export function ImagemProduto() {
             <div className="flex rounded-[10px] bg-[#F9F1E7] items-center justify-center w-[423px] h-[500px]">  
             <a href="#"><img src={Asgaardsofa3} alt="Asgaard Sofa" className="w-[481px] h-[391px]"/></a>
             </div>
-  
         </div>
       </>
     );
