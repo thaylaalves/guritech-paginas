@@ -1,5 +1,14 @@
-import { Produto } from './components/Home'
+import React from 'react';
+import { Produto } from './components/Home'; 
+import { Footer } from './components/footer'; 
 
 export default function App() {
-  return <Produto />
+  return (
+    <>
+      <Produto />
+      <Footer />
+    </>
+  );
 }
+
+ 
