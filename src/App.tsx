@@ -1,5 +1,9 @@
-import { Produto } from './components/Home'
+import {Descricao} from './components/Description';
 
 export default function App() {
-  return <Produto />
+  return  <Descricao/>
+
+    
+  
 }
+
