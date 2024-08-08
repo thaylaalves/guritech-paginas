@@ -13,14 +13,19 @@ export default function App() {
             <ImagemProduto />
           </div>
           <div className="m-20 mt-12">
-            <Produto />
+            <div className="flex flex-col gap-7">
+              <Produto />
+              <hr />
+            </div>
             <div className="mt-14">
               <Rodape />
             </div>
           </div>
         </div>
-        <Footer />
+        <hr />
         <Descricao />
+
+        <Footer />
       </div>
     </div>
   )
