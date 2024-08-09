@@ -1,14 +1,7 @@
-
-
-
-
-
- 
-
 import { Produto } from './components/Home'
 import { ImagemProduto } from './components/imagem_Produto'
 import { Footer } from './components/footer'
-import { Rodape } from './components/Rodape'
+import { Rodape } from './components/Rodapecompra'
 import { Descricao } from './components/Description'
 
 export default function App() {
@@ -25,7 +18,7 @@ export default function App() {
               <hr />
             </div>
             <div className="mt-14">
-              <Rodape/>
+              <Rodape />
             </div>
           </div>
         </div>
@@ -36,5 +29,4 @@ export default function App() {
       </div>
     </div>
   )
-
 }
